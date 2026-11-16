@@ -27,9 +27,7 @@ Automatisation de tests d'une application mobile Android (app démo SwagLabs) av
 ## Structure du projet
 
     test.robot     # Scénarios de test (login, panier, checkout)
-    report.html    # Rapport d'exécution généré
-    log.html       # Log détaillé des étapes
-    output.xml     # Sortie Robot Framework
+    .gitignore     # Exclut les rapports générés à chaque exécution
 
 ## Lancer les tests
 
@@ -39,9 +37,8 @@ Automatisation de tests d'une application mobile Android (app démo SwagLabs) av
     # Dans un autre terminal
     robot test.robot
 
-Les rapports report.html et log.html sont générés automatiquement après chaque exécution.
+Les rapports report.html, log.html et output.xml sont générés automatiquement après chaque exécution (ils ne sont pas versionnés).
 
 ## Autrice
 
-Soumia Sadki — QA Analyst & future Product Owner
-https://www.linkedin.com/in/soumia-sadki/
+Soumia Sadki — Testeuse QA junior · [LinkedIn](https://www.linkedin.com/in/soumia-sadki/)
